@@ -31,13 +31,13 @@ body {
 }
 
 .top {
-    border-bottom: 1px solid grey;
-    margin-top: 10px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(205, 194, 194, 0.904);
 }
 
 .top__pic {
-    width: 600px;
-    height: 500px;
+    width: 813px;
+    height: 374px;
     float: right;
     margin: 7px 7px 7px 0;
 
@@ -53,33 +53,43 @@ body {
 }
 
 .bottom {
-    max-width: 900px;
+    max-width: 1500px;
     margin: 0 auto;
     display: block;
 }
 
 .bottom__content {
-    padding: 20px 0 20px 20px;
-    background-color: grey;
+    padding: 40px 0 40px 64px;
+    background-color: rgb(205, 203, 203);
     margin-bottom: 10px;
 }
 
+.bottom__title {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
 .bottom__item {
+    margin: 0;
     background-image: url(./img/ingection.svg);
     background-position: center left;
     background-repeat: no-repeat;
     padding-left: 20px;
-    margin-bottom: 20px;
     list-style: none;
+    font-size: 23px;
+}
+
+.bottom__item:not(:last-child) {
+    margin-bottom: 40px;
 }
 
 .btn {
-    background-color: green;
+    background-color: rgb(150, 203, 109);
     border: none;
     cursor: pointer;
     text-align: center;
     font-size: 36px;
     margin: 0 auto;
     display: block;
-    padding: 5px;
+    padding: 20px;
 }
